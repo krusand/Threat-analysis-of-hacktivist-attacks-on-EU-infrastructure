@@ -1,3 +1,4 @@
+# this file contains sets and dictionaries of search words
 eu_nordic_countries = {"austria",
                        "belgium",
                        "croatia",
@@ -25,4 +26,19 @@ eu_nordic_countries = {"austria",
                        "slovakia",
                        "slovenia",
                        "spain",
-                       "sweden"}
+                       "sweden"
+                       }
+
+
+sectors_dict = {"energy": [],
+                "transport": [],
+                "banking": [],
+                "fin_markt_infra": [],
+                "health": [],
+                "drink_water": [],
+                "waste_water": [],
+                "digital_infra": [],
+                "public_admin": [],
+                "space": [],
+                "food": []
+                }
