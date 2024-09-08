@@ -30,7 +30,7 @@ eu_nordic_countries = {"austria",
                        }
 
 
-sectors_patterns = patterns = {
+sectors_patterns = {
     'energy': r'\b(energy|power|electricity|gas|oil|renewable|solar|wind|nuclear)\b',
     'transport': r'\b(transport|transportation|logistics|shipping|rail|aviation|fleet|freight|trucking)\b',
     'banking': r'\b(bank|banking|financial institution|credit|loan|mortgage|savings|investment)\b',
@@ -42,4 +42,11 @@ sectors_patterns = patterns = {
     'public administration': r'\b(public administration|government|municipal|local authority|public sector)\b',
     'space': r'\b(space|aerospace|satellite|rocket|space agency|astronautics)\b',
     'food': r'\b(food|agriculture|food production|food processing|beverage|restaurant|catering)\b',
+}
+
+
+cia_principles_patterns = {
+    'confidentiality': r'\b(confidentiality|privacy|unauthorized access|data breach|leak|disclosure|exposure)\b',
+    'integrity': r'\b(integrity|tampering|alteration|modification|manipulation|forgery|data corruption|unauthorized changes)\b',
+    'availability': r'\b(availability|downtime|outage|denial of service|DDoS|disruption|service disruption|system failure)\b',
 }
