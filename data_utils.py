@@ -30,19 +30,6 @@ eu_nordic_countries = {"austria",
                        }
 
 
-sectors_dict = {"energy": ["energy", "power", "electricity", "gas", "oil", "renewable"],
-                "transport": [],
-                "banking": [],
-                "fin_markt_infra": [],
-                "health": [],
-                "drink_water": [],
-                "waste_water": [],
-                "digital_infra": [],
-                "public_admin": [],
-                "space": [],
-                "food": []
-                }
-
 sectors_patterns = patterns = {
     'energy': r'\b(energy|power|electricity|gas|oil|renewable|solar|wind|nuclear)\b',
     'transport': r'\b(transport|transportation|logistics|shipping|rail|aviation|fleet|freight|trucking)\b',
