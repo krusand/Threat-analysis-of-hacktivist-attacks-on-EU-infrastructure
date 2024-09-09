@@ -32,14 +32,14 @@ eu_nordic_countries = {"austria",
 
 sectors_patterns = {
     'energy': r'\b(energy|power|electricity|gas|oil|renewable|solar|wind|nuclear)\b',
-    'transport': r'\b(transport|transportation|logistics|shipping|rail|aviation|fleet|freight|trucking)\b',
+    'transport': r'\b(transport|transportation|logistics|shipping|rail|aviation|fleet|freight|trucking|airport|airplane|railway)\b',
     'banking': r'\b(bank|banking|financial institution|credit|loan|mortgage|savings|investment)\b',
-    'financial market infrastructure': r'\b(financial market|market infrastructure|clearing|settlement|exchange|trading platform|depository)\b',
+    'financial market infrastructure': r'\b(financial market|financial|market infrastructure|clearing|settlement|exchange|trading platform|depository)\b',
     'health': r'\b(health|medical|hospital|clinic|pharma|biotech|healthcare|diagnostics)\b',
     'drinking water': r'\b(drinking water|potable water|water supply|water treatment|water purification)\b',
     'waste water': r'\b(waste water|sewage|wastewater|effluent|sewage treatment)\b',
-    'digital infrastructure': r'\b(digital infrastructure|IT infrastructure|data center|cloud computing|networking|cybersecurity)\b',
-    'public administration': r'\b(public administration|government|municipal|local authority|public sector)\b',
+    'digital infrastructure': r'\b(digital infrastructure|IT infrastructure|data center|cloud computing|networking|cybersecurity|tele)\b',
+    'public administration': r'\b(public administration|government|municipal|local authority|public sector|ministry|committee)\b',
     'space': r'\b(space|aerospace|satellite|rocket|space agency|astronautics)\b',
     'food': r'\b(food|agriculture|food production|food processing|beverage|restaurant|catering)\b',
 }
