@@ -31,17 +31,17 @@ eu_nordic_countries = {"at": "austria",
 
 
 sectors_patterns = {
-    'energy': r'\b(energy|power|electricity|gas|oil|renewable|solar|wind|nuclear)\b',
-    'transport': r'\b(transport|transportation|logistics|shipping|rail|aviation|fleet|freight|trucking|airport|airplane|railway)\b',
-    'banking': r'\b(bank|banking|financial institution|credit|loan|mortgage|savings|investment)\b',
-    'financial market infrastructure': r'\b(financial market|financial|market infrastructure|clearing|settlement|exchange|trading platform|depository)\b',
-    'health': r'\b(health|medical|hospital|clinic|pharma|biotech|healthcare|diagnostics)\b',
-    'drinking water': r'\b(drinking water|potable water|water supply|water treatment|water purification)\b',
-    'waste water': r'\b(waste water|sewage|wastewater|effluent|sewage treatment)\b',
-    'digital infrastructure': r'\b(digital infrastructure|IT infrastructure|data center|cloud computing|networking|cybersecurity|tele)\b',
-    'public administration': r'\b(public administration|government|municipal|local authority|public sector|ministry|committee)\b',
-    'space': r'\b(space|aerospace|satellite|rocket|space agency|astronautics)\b',
-    'food': r'\b(food|agriculture|food production|food processing|beverage|restaurant|catering)\b',
+    'energy': r'\b(energy|power|electricity|gas|oil|renewable|solar|wind|nuclear)',
+    'transport': r'\b(transport|transportation|logistics|shipping|rail|aviation|fleet|freight|trucking|airport|airplane|railway)',
+    'banking': r'\b(bank|banking|financial institution|credit|loan|mortgage|savings|investment|finance)',
+    'financial market infrastructure': r'\b(financial market|financial|market infrastructure|clearing|settlement|exchange|trading platform|depository)',
+    'health': r'\b(health|medical|hospital|clinic|pharma|biotech|healthcare|diagnostics)',
+    'drinking water': r'\b(drinking water|potable water|water supply|water treatment|water purification)',
+    'waste water': r'\b(waste water|sewage|wastewater|effluent|sewage treatment)',
+    'digital infrastructure': r'\b(digital infrastructure|IT infrastructure|data center|cloud computing|networking|cybersecurity|tele|cloud)',
+    'public administration': r'\b(public administration|government|municipal|local authority|public sector|ministry|committee|council|court)',
+    'space': r'\b(space|aerospace|satellite|rocket|space agency|astronautics)',
+    'food': r'\b(food|agriculture|food production|food processing|beverage|restaurant|catering)',
 }
 
 
